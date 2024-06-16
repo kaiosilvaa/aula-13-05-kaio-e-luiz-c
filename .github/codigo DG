@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt br">
+	<head>
+		<title>
+			DG
+		</title>
+		<meta charset ="UTF-8">
+		<style>
+			#escola{
+				font-weight: bold;
+				font-size: 14px;
+				text-align: center;
+		}
+			a{
+				
+		}
+
+			img{
+				margin-left: 600px;
+				height: 450px;
+				weight: 350px;
+				animation-duration: 7s;
+				animation-name: BG;
+		}
+			@keyframes BG {
+				from {
+					margin-left: 100%;
+					width: 300%;
+		}
+
+				to {
+					margin-left: 0%;
+					width: 100%;
+		}
+		}
+			@keyframes BG {
+				from {
+					margin-left: 100%;
+					width: 270%;
+		}
+
+				to {
+					margin-left: 0%;
+					width: 100%;
+		}
+		}
+			#materia{
+				font-weight: bold;
+				font-size: 14px;
+				text-align: center;
+				color: red;
+		}
+			#desenvolvedores{
+				background-color: blue;
+				color: white;
+		}
+			footer{
+				font-size: 12px;
+				text-align: center;		
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<a href="Pagina PWD 13-05-2024.html"> PWD </a>
+			<a href="Pagina APS 13-05-2024.html"> APS </a>
+			<img src="imagem/Logo Escola.png" alt="Logo da Escola"> 
+		</header>
+		<main>
+			<h2 id="materia"> Desenvolvimento de Games </h2>
+			<img src="imagem/downloadbird.png" alt="Aaaaaaaaaaaarrhuuiiíííííí Cocô!">
+		</main>
+		<footer>
+			<h2 id="desenvolvedores"> kaio da silva nossa and luiz carlos da silva junior </h2>
+		</footer>
+	</body>
+</html>
