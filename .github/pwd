@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="pt br">
+	<head>
+		<title> 
+			Site PWD
+		</title>
+		<meta name="google-site-verification" content="i552IuPfqTIfBqPtWuGHejRy1QLq0bRt8nubnKasKG0"> 
+		<meta charset="UTF-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<style>
+			#escola{
+				font-weight: bold;
+				font-size: 14px;
+				text-align: center;
+		}
+			a{
+				
+		}
+
+			img{
+				margin-left: 600px;
+				height: 450px;
+				weight: 350px;
+				animation-duration: 7s;
+				animation-name: BG;
+		}
+			@keyframes BG {
+				from {
+					margin-left: 100%;
+					width: 300%;
+		}
+
+				to {
+					margin-left: 0%;
+					width: 100%;
+		}
+		}
+			@keyframes BG {
+				from {
+					margin-left: 100%;
+					width: 270%;
+		}
+
+				to {
+					margin-left: 0%;
+					width: 100%;
+		}
+		}
+			#materia{
+				font-weight: bold;
+				font-size: 14px;
+				text-align: center;
+				color: red;
+		}
+			#imagemdev{
+				height: 350px;
+				weight: 300px;
+		}
+			#desenvolvedores{
+				background-color: blue;
+		}
+			footer{
+				font-size: 12px;
+				text-align: center;
+				color: white;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1 id="escola"> CEEMTI Baixo Guandu </h1>
+			<a href="Pagina APS 13-05-2024.html"> APS </a>
+			<a href="Pagina DG 13-05-2024.html"> DG </a>
+			<img src="imagem/Logo Escola.png" alt="Logo da Escola"> 
+
+		</header>
+		<main>
+			<h2 id="materia"> Programação para Web Designer </h2>
+			<img src="imagem/506ee22b38ada4c5390498809fca404f.jpg" id="imagemdev" alt="">
+		</main>
+		<footer>
+			<h2 id="desenvolvedores"> kaio da silva nossa and luiz carlos da silva junior </h2>
+		</footer>
+	</body>
+</html>
